@@ -1,1 +1,1 @@
-“web: scripts/web-server.js”
+web: $(npm bin)/http-server ./app -p $PORT

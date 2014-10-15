@@ -1,0 +1,82 @@
+<section class="main-client" ng-controller="DownCtrl">
+  <div class="row">
+    <section class="splash-client" >
+      <div class="row">
+        <div class="col-md-1 col-md-offset-5">
+          <div class="button-box back">
+            <a href="#"><h2 class="more-button">Back</h2></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="casestudy-header">
+          <h1 class="casestudy-title">Old Fashioned</h1>
+          <h2 class="casestudy-subtitle">A homemade boilerplate for Bourbon, Neat and Bitters on Compass.</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="casestudy">
+          <div class="col-md-10 col-md-offset-1">
+            <a href="http://ninjaofawesome.github.io/old-fashioned/" target="_blank"><img class="site-img" src="images/of.png" alt="Old Fashioned Rocks Your Face Off" /></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row" >
+        <div class="col-md-1 col-md-offset-5 col-sm-1 col-sm-offset-5 col-xs-1 col-xs-offset-5">
+          <div class="button-box">
+            <a ng-click="gotoBottom()">
+              <h1 class="more-button">More</h1>
+              <i class="fa fa-chevron-circle-down direction-arrow fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+
+<section class= "description-client" id="bottom">
+
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+      <h1 class="project-words bumper">Here's What Happened.</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h1 class="case-study-title">The Setup</h1>
+      <p class="case-study-paragraph">Old Fashioned was a project that I put together as I wanted to learn how to use Bourbon, Neat and Bitters and I thought it would be nice to have a project built with Compass, which I also very much enjoy using.  </p>
+      <p class="case-study-paragraph">Since it was a fun project for my own learning, I thought it might be nice to create a boilerplate so that others might be able to get up and running for rapid prototyping or other front end work without Bootstrap or Foundation.</p>
+    </div>
+
+    <div class="col-md-4">
+      <h1 class="case-study-title">The Plan Of Attack</h1>
+      <p class="case-study-paragraph">I decided to set this project up for anyone who had never really used Bourbon, Neat or Bitters before by setting up a front end scaffold where the user could drop in components as they needed them into the partials called styles under bourbon and mymixins under the Bourbon directory.  This is only a rough guide- additional partials can be added as necessary.</p>
+      <p class="case-study-paragraph">Then I created an index page to ramp the user up even faster with these components.  This page is really just to show how all the working parts fit together roughly. </p>
+
+    </div>
+
+    <div class="col-md-4">
+      <h1 class="case-study-title">The Solution</h1>
+      <p class="case-study-paragraph">The end result was a concise, partially responsive boilerplate perfect for low-complexity projects.  I put the work onto a public repository and created a github page to demo the project as well as to share. I also included a contact method as I’d be happy to hear users comments and field questions.  Building Old Fashioned was a great learning experience as well as something valuable to share!</p>
+
+    </div>
+  </div>
+  <div class="row" ng-controller="UpCtrl">
+    <div class="button-box bottom-box">
+      <div class="col-md-1 col-md-offset-5 col-sm-1 col-sm-offset-5 col-xs-1 col-xs-offset-5 casestudy-col">
+        <a ng-click="gotoTop()">
+          <h1 class="more-button">Less</h1>
+          <i class="fa fa-chevron-circle-up direction-arrow fa-2x"></i>
+        </a>
+        <a href="#"><h3 class="more-button">Back</h3></a>
+      </div>
+    </div>
+  </div>
+
+</section>

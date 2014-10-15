@@ -1,0 +1,84 @@
+<section class="main-client" ng-controller="DownCtrl">
+  <div class="row">
+    <section class="splash-client" >
+      <div class="row">
+        <div class="col-md-1 col-md-offset-5">
+          <div class="button-box">
+            <a href="#"><h2 class="more-button">Back</h2></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="casestudy-header" id="top">
+          <h1 class="casestudy-title">Techway NY</h1>
+          <h2 class="casestudy-subtitle">A collaborative group project</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="casestudy">
+          <div class="col-md-10 col-md-offset-1">
+            <a href="http://techway-ny.herokuapp.com/" target="_blank"><img class="site-img" src="images/techwaysite.png" alt="Techway NY Rocks Your Face Off" /></a>
+          </div>
+        </div>
+
+
+      <div class="row" >
+        <div class="col-md-1 col-md-offset-5 col-sm-1 col-sm-offset-5 col-xs-1 col-xs-offset-5">
+          <div class="button-box bottom-box">
+            <a ng-click="gotoBottom()">
+              <h1 class="more-button">More</h1>
+              <i class="fa fa-chevron-circle-down direction-arrow fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+
+<section class= "description-client" id="bottom">
+
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+      <h1 class="project-words bumper">Here's What Happened.</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h1 class="case-study-title">The Setup</h1>
+      <p class="case-study-paragraph">Techway was a group extern project that I had the pleasure of working on while I was attending Flatiron.  It was meant to give us valuable experience working with clients and rails, while giving a service to a startup who might not otherwise be able to afford a custom built project.</p>
+      <p class="case-study-paragraph">For this project, we met with a local PC repair company run by Jamel Graham.  When we met Mr. Graham, he had a site that wasn’t really fitting the needs of his small company- it was hard for him to get clientele to contact him, difficult to maintain his records and update services as he needed.</p>
+    </div>
+
+    <div class="col-md-4">
+      <h1 class="case-study-title">The Plan Of Attack</h1>
+      <p class="case-study-paragraph">
+After consulting with Mr. Graham, we determined that he would benefit most from a custom built content management system that had administrative and client side features without many bells and whistles.  On the client side, he needed a form for submissions, a form reviews, a list of services and (as it was important to Mr. Graham) positive reviews.  On the admin side, Mr. Graham needed a way to organize client records, choose reviews to feature on the landing page and have the ability to update services.</p>
+      <p class="case-study-paragraph">We used Rails 3.2 for this project and minimally used gems for components for a richer learning experience.</p>
+
+    </div>
+
+    <div class="col-md-4">
+      <h1 class="case-study-title">The Solution</h1>
+      <p class="case-study-paragraph">Working with a group of three, we built him a content management system which met all of his needs.  We deployed his project to Heroku for staging and set up a server on Digital Ocean for production.  Our project was completed on time, with all parameters met.
+</p>
+
+      <p class="case-study-paragraph">One of the best parts of working on Techway is that with a group of three other students, we were able to quad program, each taking turns to drive the programming and to find solutions for areas we got stuck in collaboratively.  </p>
+    </div>
+  </div>
+  <div class="row" ng-controller="UpCtrl">
+    <div class="button-box bottom-box">
+      <div class="col-md-1 col-md-offset-5 col-sm-1 col-sm-offset-5 col-xs-1 col-xs-offset-5 casestudy-col">
+        <a ng-click="gotoTop()">
+          <h1 class="more-button">Less</h1>
+          <i class="fa fa-chevron-circle-up direction-arrow fa-2x"></i>
+        </a>
+        <a href="#"><h3 class="more-button">Back</h3></a>
+      </div>
+    </div>
+  </div>
+
+</section>

@@ -1,0 +1,144 @@
+.more-button {
+  color: $red;
+  font-family: $mp;
+  margin: 0 0 2.5px 0;
+  &.bottom{
+    padding-left: 10px;
+  }
+}
+.direction-arrow{
+  color: $blue;
+  margin-left: 10px;
+}
+
+.casestudy-title, .project-words{
+  color: $gray;
+  text-align: center;
+  @include breakpoint(iphone){
+    font-size: 3em;
+  }
+  @include breakpoint(mobile){
+    font-size: 3.5em;
+  }
+  @include breakpoint(tablet){
+    font-size: 4em;
+  }
+  @include breakpoint(desktop){
+    font-size: 4.5em;
+  }
+  @include breakpoint(large){
+    font-size: 4.5em;
+  }
+  &.bumper {
+    margin: 10px 0;
+  }
+
+
+}
+.casestudy-subtitle, .case-study-title{
+  color: $red;
+  font-family: $mp;
+  font-size: 3em;
+  text-align: center;
+  @include breakpoint(iphone){
+    font-size: 2em;
+  }
+  @include breakpoint(mobile){
+    font-size: 2em;
+  }
+  @include breakpoint(tablet){
+    font-size: 2.5em;
+  }
+  @include breakpoint(desktop){
+    font-size: 3em;
+  }
+  @include breakpoint(large){
+    font-size: 3em;
+  }
+}
+
+.button-box{
+  margin-left: 25%;
+  width: 100px;
+  height: 25px;
+  padding: 0 37.5%;
+  cursor: pointer;
+  text-decoration: none;
+  &.bottom-box {
+    padding: 0 25%;
+  }
+  .back-link{
+    text-decoration: none;
+  }
+}
+
+.main-client{
+  margin-bottom: 12.5%;
+  .splash-client {
+    margin: 0 auto;
+    min-height: 400px;
+    @include breakpoint(iphone){
+      height: 420px;
+    }
+    @include breakpoint(mobile){
+      height: 550px;
+    }
+    @include breakpoint(tablet){
+      height: 700px;
+    }
+    @include breakpoint(desktop){
+      height: 1000px;
+    }
+    @include breakpoint(large){
+      height: 1200px;
+    }
+
+    // .casestudy-header{
+    //   margin-top: 5%;
+    // }
+
+    .casestudy {
+      margin: 0 auto;
+      .site-img {
+        width: 50%;
+        margin: 2% 25%;
+      }
+    }
+  }
+
+  .description-client {
+    margin: 12.5% 0;
+    min-height: 400px;
+    @include breakpoint(iphone){
+      height: 420px;
+    }
+    @include breakpoint(mobile){
+      height: 550px;
+    }
+    @include breakpoint(tablet){
+      height: 700px;
+    }
+    @include breakpoint(desktop){
+      height: 1000px;
+    }
+    @include breakpoint(large){
+      height: 1200px;
+    }
+  }
+}
+
+.case-study-title{
+  color: $red;
+  font-family: $mp;
+  text-align: center;
+}
+.case-study-paragraph{
+  text-align: justify;
+  padding: 0 5%;
+  line-height: 1.2;
+  .old-site{
+    color: $blue;
+  }
+}
+
+

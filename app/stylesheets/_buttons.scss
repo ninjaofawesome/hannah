@@ -1,0 +1,17 @@
+.btn {
+  .cta {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.button {
+  @include odd-button(none);
+  @include wm(none);
+  @include blue-begone(none);
+  outline: 0 !important;
+  cursor: pointer;
+  padding: none;
+  border: none;
+  background-color: transparent;
+}

@@ -1,0 +1,290 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'mp';
+  src: url("motionpicture/motionpicture_personaluseonly-webfont.woff") format("woff"), url("motionpicture/motionpicture_personaluseonly-webfont.ttf") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
+@font-face {
+  font-family: 'pistilliregular';
+  src: url("pistilli/pistilli-roman-webfont.woff") format("woff"), url("pistilli/pistilli-roman-webfont.ttf") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ }
+.btn .cta {
+  background-color: transparent;
+  border: none; }
+
+.button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-writing-mode: none;
+  -moz-writing-mode: none;
+  -o-writing-mode: none;
+  writing-mode: none;
+  -webkit-text-decoration: none;
+  -moz-text-decoration: none;
+  -o-text-decoration: none;
+  text-decoration: none;
+  outline: 0 !important;
+  cursor: pointer;
+  padding: none;
+  border: none;
+  background-color: transparent; }
+
+html {
+  height: 100%; }
+
+body {
+  background-color: #e1dbdc;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #46433a;
+  font-size: 21px;
+  text-align: justify;
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "pistilliregular", cursive, Georgia, Times, "Times New Roman", serif; }
+
+.cta-link {
+  color: #ce534d;
+  cursor: pointer; }
+  .cta-link:active, .cta-link:focus, .cta-link:hover, .cta-link:visited {
+    color: #ce534d;
+    text-decoration: none; }
+  .cta-link.contact {
+    margin-bottom: 15%; }
+
+.text-cta {
+  text-align: center; }
+
+.examples-title {
+  color: #ce534d;
+  text-align: center;
+  font-family: "pistilliregular", cursive, Georgia, Times, "Times New Roman", serif;
+  font-size: 5em; }
+  .examples-title.contact {
+    color: #46433a; }
+
+.examples-subtitle {
+  font-family: "mp", cursive, Georgia, Times, "Times New Roman", serif;
+  font-size: 3em;
+  color: #64b6b1;
+  text-align: center;
+  margin-bottom: 2%; }
+  .examples-subtitle.contact-sub {
+    font-family: "pistilliregular", cursive, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.5em;
+    color: #46433a; }
+
+.body-content {
+  height: 100%;
+  margin-bottom: 12.5%; }
+  .body-content .my-face {
+    margin-top: 25%; }
+  .body-content .word-box {
+    margin-top: 25%; }
+    .body-content .word-box .title {
+      font-family: "pistilliregular", cursive, Georgia, Times, "Times New Roman", serif;
+      color: #ce534d;
+      font-size: 5em;
+      font-weight: 900; }
+    .body-content .word-box .subtitle {
+      font-family: "mp", cursive, Georgia, Times, "Times New Roman", serif;
+      color: #64b6b1;
+      font-size: 3em;
+      font-weight: 700; }
+  .body-content .cta-intro {
+    color: #46433a;
+    margin-top: 12.5%; }
+
+.photo-box, .work-box {
+  background-image: url(images/helmethead.png);
+  max-width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto; }
+  .photo-box.designer, .work-box.designer {
+    background-image: url(images/artisthannah.png); }
+  .photo-box.learner, .work-box.learner {
+    background-image: url(images/learnedhannah.png); }
+  .photo-box.amy, .work-box.amy {
+    background-image: url(images/avd.png); }
+  .photo-box.cinna, .work-box.cinna {
+    background-image: url(images/swedeheart.png); }
+  .photo-box.techway, .work-box.techway {
+    background-image: url(images/techway.png); }
+  .photo-box.oldfashioned, .work-box.oldfashioned {
+    background-image: url(images/oldfashioned.png); }
+
+.roles-content {
+  height: 100%;
+  margin: 12.5% auto; }
+  .roles-content .words-box {
+    padding: 0 5%; }
+
+.examples-content {
+  height: 100%;
+  margin: 12.5% auto; }
+  .examples-content .professional-background .pro-back {
+    text-align: center;
+    margin: 2% auto 0 auto; }
+  .examples-content .professional-background .whisper {
+    text-align: center; }
+    .examples-content .professional-background .whisper .whisper-link {
+      color: #64b6b1;
+      text-decoration: none; }
+      .examples-content .professional-background .whisper .whisper-link:hover, .examples-content .professional-background .whisper .whisper-link:active {
+        color: #46433a; }
+      .examples-content .professional-background .whisper .whisper-link:visited {
+        color: #64b6b1; }
+  .examples-content .contact-cta {
+    text-align: center;
+    margin: 10% auto 15% auto; }
+  .examples-content .contact-me {
+    color: #ce534d;
+    text-decoration: none;
+    cursor: pointer; }
+
+.contact-box {
+  margin-top: 12.5%; }
+  .contact-box .contact-methods {
+    list-style-type: none;
+    font-size: 2em;
+    text-align: center;
+    font-family: "pistilliregular", cursive, Georgia, Times, "Times New Roman", serif;
+    margin-top: 2%; }
+    .contact-box .contact-methods .contact-hi {
+      display: inline;
+      color: #ce534d; }
+    .contact-box .contact-methods .contact-link {
+      color: #64b6b1;
+      text-decoration: none; }
+      .contact-box .contact-methods .contact-link:hover, .contact-box .contact-methods .contact-link:active {
+        color: #46433a; }
+      .contact-box .contact-methods .contact-link:visited {
+        color: #64b6b1; }
+
+.more-button {
+  color: #ce534d;
+  font-family: "mp", cursive, Georgia, Times, "Times New Roman", serif;
+  margin: 0 0 2.5px 0; }
+  .more-button.bottom {
+    padding-left: 10px; }
+
+.direction-arrow {
+  color: #64b6b1;
+  margin-left: 10px; }
+
+.casestudy-title, .project-words {
+  color: #46433a;
+  text-align: center; }
+  @media all and (max-width: 479px) {
+    .casestudy-title, .project-words {
+      font-size: 3em; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .casestudy-title, .project-words {
+      font-size: 3.5em; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .casestudy-title, .project-words {
+      font-size: 4em; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .casestudy-title, .project-words {
+      font-size: 4.5em; } }
+  @media all and (min-width: 1200px) {
+    .casestudy-title, .project-words {
+      font-size: 4.5em; } }
+  .casestudy-title.bumper, .project-words.bumper {
+    margin: 10px 0; }
+
+.casestudy-subtitle, .case-study-title {
+  color: #ce534d;
+  font-family: "mp", cursive, Georgia, Times, "Times New Roman", serif;
+  font-size: 3em;
+  text-align: center; }
+  @media all and (max-width: 479px) {
+    .casestudy-subtitle, .case-study-title {
+      font-size: 2em; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .casestudy-subtitle, .case-study-title {
+      font-size: 2em; } }
+  @media all and (min-width: 768px) and (max-width: 991px) {
+    .casestudy-subtitle, .case-study-title {
+      font-size: 2.5em; } }
+  @media all and (min-width: 992px) and (max-width: 1199px) {
+    .casestudy-subtitle, .case-study-title {
+      font-size: 3em; } }
+  @media all and (min-width: 1200px) {
+    .casestudy-subtitle, .case-study-title {
+      font-size: 3em; } }
+
+.button-box {
+  margin-left: 25%;
+  width: 100px;
+  height: 25px;
+  padding: 0 37.5%;
+  cursor: pointer;
+  text-decoration: none; }
+  .button-box.bottom-box {
+    padding: 0 25%; }
+  .button-box .back-link {
+    text-decoration: none; }
+
+.main-client {
+  margin-bottom: 12.5%; }
+  .main-client .splash-client {
+    margin: 0 auto;
+    min-height: 400px; }
+    @media all and (max-width: 479px) {
+      .main-client .splash-client {
+        height: 420px; } }
+    @media all and (min-width: 480px) and (max-width: 767px) {
+      .main-client .splash-client {
+        height: 550px; } }
+    @media all and (min-width: 768px) and (max-width: 991px) {
+      .main-client .splash-client {
+        height: 700px; } }
+    @media all and (min-width: 992px) and (max-width: 1199px) {
+      .main-client .splash-client {
+        height: 1000px; } }
+    @media all and (min-width: 1200px) {
+      .main-client .splash-client {
+        height: 1200px; } }
+    .main-client .splash-client .casestudy {
+      margin: 0 auto; }
+      .main-client .splash-client .casestudy .site-img {
+        width: 50%;
+        margin: 2% 25%; }
+  .main-client .description-client {
+    margin: 12.5% 0;
+    min-height: 400px; }
+    @media all and (max-width: 479px) {
+      .main-client .description-client {
+        height: 420px; } }
+    @media all and (min-width: 480px) and (max-width: 767px) {
+      .main-client .description-client {
+        height: 550px; } }
+    @media all and (min-width: 768px) and (max-width: 991px) {
+      .main-client .description-client {
+        height: 700px; } }
+    @media all and (min-width: 992px) and (max-width: 1199px) {
+      .main-client .description-client {
+        height: 1000px; } }
+    @media all and (min-width: 1200px) {
+      .main-client .description-client {
+        height: 1200px; } }
+
+.case-study-title {
+  color: #ce534d;
+  font-family: "mp", cursive, Georgia, Times, "Times New Roman", serif;
+  text-align: center; }
+
+.case-study-paragraph {
+  text-align: justify;
+  padding: 0 5%;
+  line-height: 1.2; }
+  .case-study-paragraph .old-site {
+    color: #64b6b1; }

@@ -1,0 +1,55 @@
+//for breakpoint specific views
+@mixin breakpoint($point) {
+  @if $point == iphone {
+    @media all and (max-width: $screen-xxs-max) { @content; }
+  }
+  @else if $point == mobile {
+    @media all and (min-width: $screen-xs) and (max-width: $screen-xs-max) {
+      @content;
+    }
+  }
+  @else if $point == tablet {
+    @media all and (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+      @content;
+    }
+  }
+  @else if $point == desktop {
+    @media all and (min-width: $screen-md) and (max-width: $screen-md-max) {
+      @content;
+    }
+  }
+  @else if $point == large {
+    @media all and (min-width: $screen-lg) {
+      @content;
+    }
+  }
+}
+
+@mixin bg-cover($image, $style){
+  background: url($image) no-repeat center center fixed;
+  -webkit-background-size: $style;
+  -moz-background-size: $style;
+  -o-background-size: $style;
+  background-size: $style;
+}
+
+@mixin odd-button($look) {
+  -webkit-appearance: $look;
+  -moz-appearance: $look;
+  -o-appearance: $look;
+  appearance: $look;
+}
+
+@mixin wm($look) {
+  -webkit-writing-mode: $look;
+  -moz-writing-mode: $look;
+  -o-writing-mode: $look;
+  writing-mode: $look;
+}
+
+@mixin blue-begone($look){
+  -webkit-text-decoration: $look;
+  -moz-text-decoration: $look;
+  -o-text-decoration: $look;
+  text-decoration: $look;
+}

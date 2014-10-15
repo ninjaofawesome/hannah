@@ -1,0 +1,163 @@
+  .cta-link {
+    color: $red;
+    cursor: pointer;
+    &:active, &:focus, &:hover, &:visited {
+       color: $red;
+       text-decoration: none;
+    }
+    &.contact {
+      margin-bottom: 15%;
+    }
+  }
+  .text-cta {
+    text-align: center;
+  }
+
+  .examples-title{
+    color: $red;
+    text-align: center;
+    font-family: $pistil;
+    font-size: 5em;
+    &.contact{
+      color: $gray;
+    }
+  }
+
+  .examples-subtitle {
+    font-family: $mp;
+    font-size: 3em;
+    color: $blue;
+    text-align: center;
+    margin-bottom: 2%;
+    &.contact-sub{
+      font-family: $pistil;
+      font-size: 1.5em;
+      color: $gray;
+    }
+  }
+
+.body-content {
+  height: 100%;
+  margin-bottom: 12.5%;
+
+  .my-face {
+    margin-top: 25%;
+  }
+  .word-box {
+    margin-top: 25%;
+    .title {
+      font-family: $pistil;
+      color: $red;
+      font-size: 5em;
+      font-weight: 900;
+    }
+    .subtitle {
+      font-family: $mp;
+      color: $blue;
+      font-size: 3em;
+      font-weight: 700;
+    }
+  }
+  .cta-intro {
+    color: $gray;
+    margin-top: 12.5%;
+  }
+}
+
+
+.photo-box, .work-box{
+   background-image: url(images/helmethead.png);
+   max-width: 200px;
+   height: 200px;
+   display: block;
+   margin: 0 auto;
+   &.designer{
+    background-image: url(images/artisthannah.png);
+   }
+   &.learner {
+    background-image: url(images/learnedhannah.png);
+   }
+   &.amy {
+    background-image: url(images/avd.png);
+   }
+   &.cinna {
+    background-image: url(images/swedeheart.png);
+   }
+   &.techway {
+    background-image: url(images/techway.png);
+   }
+   &.oldfashioned {
+    background-image: url(images/oldfashioned.png);
+   }
+  }
+
+.roles-content {
+  height: 100%;
+  margin: 12.5% auto;
+  .words-box{
+    padding: 0 5%;
+  }
+}
+
+
+.examples-content {
+  height: 100%;
+  margin: 12.5% auto;
+
+  .professional-background {
+    .pro-back {
+      text-align: center;
+      margin: 2% auto 0 auto;
+    }
+    .whisper {
+      text-align: center;
+      .whisper-link{
+        color: $blue;
+        text-decoration: none;
+        &:hover, &:active{
+          color: $gray;
+        }
+        &:visited{
+          color: $blue;
+        }
+      }
+    }
+  }
+
+  .contact-cta {
+    text-align: center;
+    margin: 10% auto 15% auto;
+  }
+  .contact-me {
+    color: $red;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.contact-box{
+  margin-top: 12.5%;
+  .contact-methods{
+    list-style-type: none;
+    font-size: 2em;
+    text-align: center;
+    font-family: $pistil;
+    margin-top: 2%;
+    .contact-hi{
+      display: inline;
+      color: $red;
+    }
+    .contact-link{
+      color: $blue;
+      text-decoration: none;
+      &:hover, &:active{
+        color: $gray;
+      }
+      &:visited {
+        color: $blue;
+      }
+    }
+  }
+
+}
+
